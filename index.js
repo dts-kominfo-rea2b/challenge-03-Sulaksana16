@@ -28,8 +28,8 @@ const listBelanjaan = datas => {
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 const totalBelanjaan = datas => {
   let subTotal = 0;
-  for (let idx of datas) {
-    subTotal += (idx.harga * idx.kuantitas)
+  for (let id of datas) {
+    subTotal += (id.harga * id.kuantitas)
   };
   return subTotal
 }
